@@ -44,11 +44,12 @@ The setup simulates a real-world enterprise environment where different departme
 ## 🧑‍💼 Step 2: Active Directory Setup
 
 <p align="center">
-  <img src="images/3.we will open the server manager,click on tools and click on active directory users and computers.png" width="600"/>
+2.0<img src="images/3.we will open the server manager,click on tools and click on active directory users and computers.png" width="600"/>
+We will open the server manager,click on tools and click on active directory users and computers
 </p>
 
 <p align="center">
-  <img src="images/4.am going to create OU's according to the subfolders i created earlier,by creating the OU, you right click on the domain you created which mine is test.com .png" width="600"/>
+ 2.1 <img src="images/4.am going to create OU's according to the subfolders i created earlier,by creating the OU, you right click on the domain you created which mine is test.com .png" width="600"/>
 </p>
 
 <p align="center">
