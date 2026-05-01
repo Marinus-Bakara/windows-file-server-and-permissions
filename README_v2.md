@@ -36,12 +36,12 @@ The setup simulates a real-world enterprise environment where different departme
 
 <p align="center">
 1.1<img src="https://github.com/Marinus-Bakara/windows-file-server-and-permissions/blob/main/images/2.i%20created%20these%20subfolders%20in%20companies%20data%20which%20we%20will%20use%20to%20give%20to%20users%20on%20how%20to%20access%20them.png" width="600"/>
-  i created subfolders in companies data which, we will use to give to users permissions on how to access them.
+  I created subfolders in companies data which, we will use to give to users permissions on how to access them.
 </p>
 
 
 
-## 🧑‍💼 Step 2: Active Directory Setup
+##  Step 2: Active Directory Setup
 
 <p align="center">
 2.0<img src="images/3.we will open the server manager,click on tools and click on active directory users and computers.png" width="600"/>
@@ -81,7 +81,7 @@ After selecting the you would be asked to enter the details of the user
 After entering the detials you be asked to enter the password for the user,and industry wise you have to select the option user must chande password at next login this enables the person to enter his or her own password
 </p>
 
-## 👥 Step 4: Groups Configuration
+## Step 4: Groups Configuration
 
 <p align="center">
 4.0<img src="images/10.i will create groups an name them according the subfolders we created earlier,and you will add the user to the groups.png" width="600"/>
@@ -114,7 +114,6 @@ We will click on add to add the HR group
   <img src="images/15.am giving the HR group to permission to read and change.png" width="600"/>
 </p>
 
----
 
 ## 🚫 Step 6: Security Configuration
 
