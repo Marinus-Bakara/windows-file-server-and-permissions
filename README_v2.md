@@ -101,11 +101,13 @@ We have to enter the name of the group and click on ok
 ##  Step 5: Permissions Configuration
 
 <p align="center">
-  <img src="images/13.we want to share the folder with the HR group and give them permissions on only modify.in doing that we will right click on the HR folder and select properties and sharing and click on advanced sharing accept the permissions.png" width="600"/>
+5.0<img src="https://github.com/Marinus-Bakara/windows-file-server-and-permissions/blob/main/images/13WEWA~1.PNG" width="600"/>
+We want to share the folder with the HR group and give them permissions on only modify.in doing that we will right click on the HR folder and select properties and sharing and click on advanced sharing accept the permissions
 </p>
 
 <p align="center">
   <img src="images/14. we will click on add to add the HR group.png" width="600"/>
+We will click on add to add the HR group
 </p>
 
 <p align="center">
