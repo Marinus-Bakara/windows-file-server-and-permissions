@@ -28,17 +28,19 @@ The setup simulates a real-world enterprise environment where different departme
 
 
 ## Step 1: Create File Structure
+1.0
 
-<p align="center">
-1.0<img src="https://github.com/Marinus-Bakara/windows-file-server-and-permissions/blob/main/images/1.%20i%20created%20a%20folder%20named%20company%20data%20in%20windows%20server%20drive%20C.png" width="600"/>
+<img src="https://github.com/Marinus-Bakara/windows-file-server-and-permissions/blob/main/images/1.%20i%20created%20a%20folder%20named%20company%20data%20in%20windows%20server%20drive%20C.png" width="600"/>
   
-  I created a folder named company data in windows server drive C.
-</p>
 
-<p align="center">
-1.1<img src="https://github.com/Marinus-Bakara/windows-file-server-and-permissions/blob/main/images/2.i%20created%20these%20subfolders%20in%20companies%20data%20which%20we%20will%20use%20to%20give%20to%20users%20on%20how%20to%20access%20them.png" width="600"/>
+
+  I created a folder named company data in windows server drive C.
+
+1.1
+<img src="https://github.com/Marinus-Bakara/windows-file-server-and-permissions/blob/main/images/2.i%20created%20these%20subfolders%20in%20companies%20data%20which%20we%20will%20use%20to%20give%20to%20users%20on%20how%20to%20access%20them.png" width="600"/>
+
   I created subfolders in companies data which, we will use to give to users permissions on how to access them.
-</p>
+
 
 
 
