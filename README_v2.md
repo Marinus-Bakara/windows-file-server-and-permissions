@@ -59,7 +59,7 @@ After clicking on the Organisational unit ,a window shows for you to enter the O
 </p>
 
 <p align="center">
-  <img src="images/6.this is how it is after creating all th OU's.png" width="600"/>
+2.3<img src="images/6.this is how it is after creating all th OU's.png" width="600"/>
 This is how it is after creating all th OU's.
 </p>
 
@@ -119,7 +119,8 @@ Am giving the HR group to permission to read and change
 ## 🚫 Step 6: Security Configuration
 
 <p align="center">
-  <img src="images/16.we have to disable inheritance to prevent other departments from seeing the HR folder..png" width="600"/>
+6.0<img src="images/16.we have to disable inheritance to prevent other departments from seeing the HR folder..png" width="600"/>
+We have to disable inheritance to prevent other departments from seeing the HR folder.
 </p>
 
 <p align="center">
