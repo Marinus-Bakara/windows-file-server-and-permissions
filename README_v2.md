@@ -64,7 +64,7 @@ This is how it is after creating all th OU's.
 </p>
 
 
-## 👤 Step 3: Create Users
+##  Step 3: Create Users
 
 <p align="center">
 3.0 <img src="images/7.we are going to create new three new users under each OU..png" width="600"/>
@@ -124,19 +124,20 @@ We have to disable inheritance to prevent other departments from seeing the HR f
 </p>
 
 <p align="center">
-  <img src="images/17.we have to select the first option to store the setting.png" width="600"/>
+ 6.1 <img src="images/17.we have to select the first option to store the setting.png" width="600"/>
+  We have to select the first option to store the setting.
 </p>
 
 <p align="center">
-  <img src="images/18.we would now click on share.png" width="600"/>
+ 6.2 <img src="images/18.we would now click on share.png" width="600"/>
+  We would now click on share
 </p>
 
----
-
-## 🧪 Step 7: Testing
+## Step 7: Testing
 
 <p align="center">
-  <img src="images/19.we are going to use one of these users to access HR folder using a windows 11 machine.png" width="600"/>
+7.0<img src="images/19.we are going to use one of these users to access HR folder using a windows 11 machine.png" width="600"/>
+We are going to use one of these users to access HR folder using a windows 11 machine
 </p>
 
 <p align="center">
