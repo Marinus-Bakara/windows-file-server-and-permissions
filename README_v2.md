@@ -1,0 +1,178 @@
+# 🚀 Windows Server File Server with Access Control
+
+## 📌 Overview
+This project demonstrates how to configure a File Server on Windows Server and implement secure access control using Active Directory, Organizational Units (OUs), Groups, and NTFS/Share permissions.
+
+The setup simulates a real-world enterprise environment where different departments have restricted access to specific folders.
+
+---
+
+## 🎯 Objectives
+- Set up a file server on Windows Server  
+- Create users and Organizational Units (OUs)  
+- Implement group-based access control  
+- Configure folder sharing and permissions  
+- Test access restrictions  
+
+---
+
+## 🛠️ Technologies Used
+- Windows Server 2022  
+- Active Directory Users and Computers (ADUC)  
+- NTFS Permissions  
+- Windows 11  
+
+---
+
+## 🏗️ Architecture Overview
+- Server: Hosts shared folders and manages permissions  
+- Active Directory: Manages users, groups, and OUs  
+- Client Machine: Used for testing access  
+
+---
+
+## 📂 Step 1: Create File Structure
+
+<p align="center">
+  <img src="images/1. i created a folder named company data in windows server drive C.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/2.i created these subfolders in companies data which we will use to give to users on how to access them.png" width="600"/>
+</p>
+
+---
+
+## 🧑‍💼 Step 2: Active Directory Setup
+
+<p align="center">
+  <img src="images/3.we will open the server manager,click on tools and click on active directory users and computers.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/4.am going to create OU's according to the subfolders i created earlier,by creating the OU, you right click on the domain you created which mine is test.com .png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/5. After clicking on the Organisational unit ,a window shows for you to enter the OU name ,and select protection of contain from accident deletion.and we are creating  ou for all the three subfolders we created earlier using these same steps.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/6.this is how it is after creating all th OU's.png" width="600"/>
+</p>
+
+---
+
+## 👤 Step 3: Create Users
+
+<p align="center">
+  <img src="images/7.we are going to create new three new users under each OU..png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/8.after selecting the you would be asked to enter the details of the user.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/9.after entering the detials you be asked to enter the password for the user,and industry wise you have to select the option user must chande password at next login this enables the person to enter his or her own password.png" width="600"/>
+</p>
+
+---
+
+## 👥 Step 4: Groups Configuration
+
+<p align="center">
+  <img src="images/10.i will create groups an name them according the subfolders we created earlier,and you will add the user to the groups.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/11.am putting all the users we created under OU HR to the HR Group i created,and going to di for all of them.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/12.you have to enter the name of the group and click on ok.png" width="600"/>
+</p>
+
+---
+
+## 🔐 Step 5: Permissions Configuration
+
+<p align="center">
+  <img src="images/13.we want to share the folder with the HR group and give them permissions on only modify.in doing that we will right click on the HR folder and select properties and sharing and click on advanced sharing accept the permissions.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/14. we will click on add to add the HR group.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/15.am giving the HR group to permission to read and change.png" width="600"/>
+</p>
+
+---
+
+## 🚫 Step 6: Security Configuration
+
+<p align="center">
+  <img src="images/16.we have to disable inheritance to prevent other departments from seeing the HR folder..png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/17.we have to select the first option to store the setting.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/18.we would now click on share.png" width="600"/>
+</p>
+
+---
+
+## 🧪 Step 7: Testing
+
+<p align="center">
+  <img src="images/19.we are going to use one of these users to access HR folder using a windows 11 machine.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/20.we are loging in using the user name mari.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/21.we paste the folder path to see whether the user in the HR department can access it.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="images/22.after that we map it to a drive for easy access.png" width="600"/>
+</p>
+
+### ❌ Unauthorized Access
+<p align="center">
+  <img src="images/23.i logged into the win 11 using a user under IT group to access the HR folder and this is the message that was given meaning the settings we did are working properly.png" width="600"/>
+</p>
+
+---
+
+## 📊 Results
+- Access control worked as expected  
+- Authorized users gained access  
+- Unauthorized users were denied  
+
+---
+
+## 🔐 Security Best Practices
+- Group-based permission assignment  
+- Least privilege principle  
+- Disabled inheritance to protect sensitive folders  
+
+---
+
+## 🚀 Future Improvements
+- Integrate with monitoring tools like Wazuh  
+- Enable auditing and logging  
+- Expand to domain-wide deployment  
+
+---
+
+## 👤 Author
+Marinus Bakara  
+Email: bakaramarinus3@gmail.com  
