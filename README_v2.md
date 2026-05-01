@@ -77,10 +77,9 @@ After selecting the you would be asked to enter the details of the user
 </p>
 
 <p align="center">
-  <img src="images/9.after entering the detials you be asked to enter the password for the user,and industry wise you have to select the option user must chande password at next login this enables the person to enter his or her own password.png" width="600"/>
+3.2<img src="https://github.com/Marinus-Bakara/windows-file-server-and-permissions/blob/main/images/9AFTER~1.PNG" width="600"/>
+After entering the detials you be asked to enter the password for the user,and industry wise you have to select the option user must chande password at next login this enables the person to enter his or her own password
 </p>
-
----
 
 ## 👥 Step 4: Groups Configuration
 
