@@ -50,10 +50,12 @@ We will open the server manager,click on tools and click on active directory use
 
 <p align="center">
  2.1 <img src="images/4.am going to create OU's according to the subfolders i created earlier,by creating the OU, you right click on the domain you created which mine is test.com .png" width="600"/>
+Am going to create OU's according to the subfolders i created earlier,by creating the OU, you right click on the domain you created which mine is test.com
 </p>
 
 <p align="center">
-  <img src="images/5. After clicking on the Organisational unit ,a window shows for you to enter the OU name ,and select protection of contain from accident deletion.and we are creating  ou for all the three subfolders we created earlier using these same steps.png" width="600"/>
+ 2.2 <img src="https://github.com/Marinus-Bakara/windows-file-server-and-permissions/blob/main/images/5AFTER~1.PNG" width="600"/>
+After clicking on the Organisational unit ,a window shows for you to enter the OU name ,and select protection of contain from accident deletion,and we are creating  ou for all the three subfolders we created earlier using these same steps.
 </p>
 
 <p align="center">
