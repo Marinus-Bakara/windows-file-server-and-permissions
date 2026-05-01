@@ -51,12 +51,13 @@ The setup simulates a real-world enterprise environment where different departme
 We will open the server manager,click on tools and click on active directory users and computers
 </p>
 
-<p align="center">
+
  2.1 <img src="images/4.am going to create OU's according to the subfolders i created earlier,by creating the OU, you right click on the domain you created which mine is test.com .png" width="600"/>
+ </p>
 Am going to create OU's according to the subfolders i created earlier,by creating the OU, you right click on the domain you created which mine is test.com
-</p>
 
 <p align="center">
+
  2.2 <img src="https://github.com/Marinus-Bakara/windows-file-server-and-permissions/blob/main/images/5AFTER~1.PNG" width="600"/>
 After clicking on the Organisational unit ,a window shows for you to enter the OU name ,and select protection of contain from accident deletion,and we are creating  ou for all the three subfolders we created earlier using these same steps.
 </p>
