@@ -31,6 +31,7 @@ The setup simulates a real-world enterprise environment where different departme
 
 <p align="center">
 1.0<img src="https://github.com/Marinus-Bakara/windows-file-server-and-permissions/blob/main/images/1.%20i%20created%20a%20folder%20named%20company%20data%20in%20windows%20server%20drive%20C.png" width="600"/>
+  
   I created a folder named company data in windows server drive C.
 </p>
 
