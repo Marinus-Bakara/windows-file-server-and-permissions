@@ -116,7 +116,7 @@ Am giving the HR group to permission to read and change
 </p>
 
 
-## 🚫 Step 6: Security Configuration
+## Step 6: Security Configuration
 
 <p align="center">
 6.0<img src="images/16.we have to disable inheritance to prevent other departments from seeing the HR folder..png" width="600"/>
@@ -141,45 +141,48 @@ We are going to use one of these users to access HR folder using a windows 11 ma
 </p>
 
 <p align="center">
-  <img src="images/20.we are loging in using the user name mari.png" width="600"/>
+7.1<img src="images/20.we are loging in using the user name mari.png" width="600"/>
+We are loging in using the user name mari.
 </p>
 
 <p align="center">
-  <img src="images/21.we paste the folder path to see whether the user in the HR department can access it.png" width="600"/>
+7.2<img src="images/21.we paste the folder path to see whether the user in the HR department can access it.png" width="600"/>
+We paste the folder path to see whether the user in the HR department can access it
 </p>
 
 <p align="center">
-  <img src="images/22.after that we map it to a drive for easy access.png" width="600"/>
+7.3<img src="images/22.after that we map it to a drive for easy access.png" width="600"/>
+  after that we map it to a drive for easy access.
 </p>
 
-### ❌ Unauthorized Access
+###  Unauthorized Access
 <p align="center">
-  <img src="images/23.i logged into the win 11 using a user under IT group to access the HR folder and this is the message that was given meaning the settings we did are working properly.png" width="600"/>
+ <img src="images/23.i logged into the win 11 using a user under IT group to access the HR folder and this is the message that was given meaning the settings we did are working properly.png" width="600"/>
+I logged into the win 11 using a user under IT group to access the HR folder and this is the message that was given meaning the settings we did are working properly.
 </p>
 
----
 
-## 📊 Results
+##  Results
 - Access control worked as expected  
 - Authorized users gained access  
 - Unauthorized users were denied  
 
 ---
 
-## 🔐 Security Best Practices
+## Security Best Practices
 - Group-based permission assignment  
 - Least privilege principle  
 - Disabled inheritance to protect sensitive folders  
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 - Integrate with monitoring tools like Wazuh  
 - Enable auditing and logging  
 - Expand to domain-wide deployment  
 
 ---
 
-## 👤 Author
+##  Author
 Marinus Bakara  
 Email: bakaramarinus3@gmail.com  
