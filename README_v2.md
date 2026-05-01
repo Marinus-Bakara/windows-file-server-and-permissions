@@ -60,14 +60,15 @@ After clicking on the Organisational unit ,a window shows for you to enter the O
 
 <p align="center">
   <img src="images/6.this is how it is after creating all th OU's.png" width="600"/>
+This is how it is after creating all th OU's.
 </p>
 
----
 
 ## 👤 Step 3: Create Users
 
 <p align="center">
-  <img src="images/7.we are going to create new three new users under each OU..png" width="600"/>
+3.0 <img src="images/7.we are going to create new three new users under each OU..png" width="600"/>
+We are going to create new three new users under each OU.
 </p>
 
 <p align="center">
