@@ -26,40 +26,11 @@ This project sets up a centralized file server where different departments (HR, 
 
 ## Technologies Used
 
-- Windows Server 2022
+- Windows Server 2025
 - Active Directory Users and Computers (ADUC)
 - NTFS Permissions
 - SMB File Sharing
 - Windows 11 (client testing)
-
----
-
-## Architecture Overview
-
-```
-Clients (Windows 11 PCs)
-         |
-         v
-Active Directory Domain Controller (test.com)
-  - Organizational Units: HR | Finance | IT
-  - Security Groups per department
-  - User accounts assigned to groups
-         |
-         v
-Windows Server 2022 — File and Storage Services
-  C:\CompanyData\
-  ├── HR\         (HR-Group: Read & Change | Inheritance disabled)
-  ├── Finance\    (Finance-Group: Read & Change | Inheritance disabled)
-  └── IT\         (IT-Group: Read & Change | Inheritance disabled)
-```
-
-| Layer | Component | Purpose |
-|---|---|---|
-| Client | Windows 11 machines | Access shared folders via SMB |
-| Authentication | Active Directory (test.com) | User identity and group membership |
-| File Server | Windows Server 2022 | Hosts SMB shares and enforces NTFS permissions |
-| Structure | OUs → Groups → Users | Logical organization per department |
-| Storage | C:\CompanyData\ subfolders | Isolated folders per department |
 
 ---
 
@@ -269,15 +240,6 @@ An IT department user attempts to access the HR folder. The **Access Denied** me
 - Mapped drives worked correctly for authorized users
 
 ---
-
-## Permission Model
-
-| Group | Share Permission | NTFS Permission | Inheritance |
-|---|---|---|---|
-| Domain Admins | Full Control | Full Control | Enabled |
-| HR-Group | Read / Change | Modify | Disabled |
-| Finance-Group | Read / Change | Modify | Disabled |
-| IT-Group | Read / Change | Modify | Disabled |
 
 > **Best practice:** Always use NTFS permissions for granular access control. Set share permissions broadly (Read for Everyone) and restrict at the NTFS level using AD security groups — never assign permissions directly to individual user accounts.
 
