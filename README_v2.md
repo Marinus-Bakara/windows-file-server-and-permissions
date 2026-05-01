@@ -72,7 +72,8 @@ We are going to create new three new users under each OU.
 </p>
 
 <p align="center">
-  <img src="images/8.after selecting the you would be asked to enter the details of the user.png" width="600"/>
+3.1<img src="images/8.after selecting the you would be asked to enter the details of the user.png" width="600"/>
+After selecting the you would be asked to enter the details of the user
 </p>
 
 <p align="center">
