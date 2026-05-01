@@ -84,20 +84,21 @@ After entering the detials you be asked to enter the password for the user,and i
 ## 👥 Step 4: Groups Configuration
 
 <p align="center">
-  <img src="images/10.i will create groups an name them according the subfolders we created earlier,and you will add the user to the groups.png" width="600"/>
+4.0<img src="images/10.i will create groups an name them according the subfolders we created earlier,and you will add the user to the groups.png" width="600"/>
+I will create groups and name them according the subfolders we created earlier,we you will add the user to the groups.
 </p>
 
 <p align="center">
-  <img src="images/11.am putting all the users we created under OU HR to the HR Group i created,and going to di for all of them.png" width="600"/>
+ 4.1<img src="images/11.am putting all the users we created under OU HR to the HR Group i created,and going to di for all of them.png" width="600"/>
+Am putting all the users we created under OU HR to the HR Group i created,and going to do for all of them.
 </p>
 
 <p align="center">
-  <img src="images/12.you have to enter the name of the group and click on ok.png" width="600"/>
+4.2<img src="images/12.you have to enter the name of the group and click on ok.png" width="600"/>
+We have to enter the name of the group and click on ok
 </p>
 
----
-
-## 🔐 Step 5: Permissions Configuration
+##  Step 5: Permissions Configuration
 
 <p align="center">
   <img src="images/13.we want to share the folder with the HR group and give them permissions on only modify.in doing that we will right click on the HR folder and select properties and sharing and click on advanced sharing accept the permissions.png" width="600"/>
