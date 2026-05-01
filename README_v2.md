@@ -35,7 +35,7 @@ The setup simulates a real-world enterprise environment where different departme
 </p>
 
 <p align="center">
-1.1<img src="https://github.com/Marinus-Bakara/windows-file-server-and-permissions/blob/main/images/2.i%20created%20these%20subfolders%20in%20companies%20data%20which%20we%20will%20use%20to%20give%20to%20users%20on%20how%20to%20access%20them.png.png" width="600"/>
+1.1<img src="https://github.com/Marinus-Bakara/windows-file-server-and-permissions/blob/main/images/2.i%20created%20these%20subfolders%20in%20companies%20data%20which%20we%20will%20use%20to%20give%20to%20users%20on%20how%20to%20access%20them.png" width="600"/>
   i created subfolders in companies data which, we will use to give to users permissions on how to access them.
 </p>
 
