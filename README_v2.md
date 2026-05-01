@@ -1,47 +1,38 @@
-# 🚀 Windows Server File Server with Access Control
+# Windows Server File Server with Access Control
 
-## 📌 Overview
+## Overview
 This project demonstrates how to configure a File Server on Windows Server and implement secure access control using Active Directory, Organizational Units (OUs), Groups, and NTFS/Share permissions.
 
 The setup simulates a real-world enterprise environment where different departments have restricted access to specific folders.
 
----
 
-## 🎯 Objectives
+## Objectives
 - Set up a file server on Windows Server  
 - Create users and Organizational Units (OUs)  
 - Implement group-based access control  
 - Configure folder sharing and permissions  
 - Test access restrictions  
 
----
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Windows Server 2022  
 - Active Directory Users and Computers (ADUC)  
 - NTFS Permissions  
 - Windows 11  
 
----
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 - Server: Hosts shared folders and manages permissions  
 - Active Directory: Manages users, groups, and OUs  
 - Client Machine: Used for testing access  
 
----
 
-## 📂 Step 1: Create File Structure
-
-<p align="center">
-  <img src="images/1. i created a folder named company data in windows server drive C.png" width="600"/>
-</p>
+## Step 1: Create File Structure
 
 <p align="center">
-  <img src="images/2.i created these subfolders in companies data which we will use to give to users on how to access them.png" width="600"/>
+  <img src="https://github.com/Marinus-Bakara/windows-file-server-and-permissions/blob/main/images/1.%20i%20created%20a%20folder%20named%20company%20data%20in%20windows%20server%20drive%20C.png" width="600"/>
 </p>
-
----
+I created a folder named company data in windows server drive C.
 
 ## 🧑‍💼 Step 2: Active Directory Setup
 
