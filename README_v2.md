@@ -106,12 +106,13 @@ We want to share the folder with the HR group and give them permissions on only 
 </p>
 
 <p align="center">
-  <img src="images/14. we will click on add to add the HR group.png" width="600"/>
+5.1<img src="images/14. we will click on add to add the HR group.png" width="600"/>
 We will click on add to add the HR group
 </p>
 
 <p align="center">
-  <img src="images/15.am giving the HR group to permission to read and change.png" width="600"/>
+5.2<img src="images/15.am giving the HR group to permission to read and change.png" width="600"/>
+Am giving the HR group to permission to read and change
 </p>
 
 
