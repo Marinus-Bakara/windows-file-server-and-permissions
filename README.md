@@ -1,10 +1,7 @@
 # Windows File Server & Active Directory Permission Management
 
-> This project demonstrates how to configure a File Server on Windows Server and implement secure access control using Active Directory, Organizational Units (OUs), Groups, and NTFS/Share permissions. The setup simulates a real-world enterprise environment where different departments have restricted access to specific folders.
+This project demonstrates how to configure a File Server on Windows Server and implement secure access control using Active Directory, Organizational Units (OUs), Groups, and NTFS/Share permissions. The setup simulates a real-world enterprise environment where different departments have restricted access to specific folders.
 
-![Status](https://img.shields.io/badge/status-completed-brightgreen)
-![Platform](https://img.shields.io/badge/platform-Windows%20Server%202022-blue)
-![AD](https://img.shields.io/badge/Active%20Directory-enabled-informational)
 
 ---
 
