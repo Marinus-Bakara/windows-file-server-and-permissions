@@ -10,6 +10,11 @@ This project demonstrates how to configure a File Server on Windows Server and i
 This project sets up a centralized file server where different departments (HR, Finance, IT) can only access their designated folders. Access control is enforced through Active Directory groups and NTFS permissions, with share-level permissions acting as a secondary layer. The setup was verified by logging in as users from different departments to confirm that authorized users gain access and unauthorized users are denied.
 
 ---
+## Architecture Overview
+- Server: Hosts shared folders and manages permissions  
+- Active Directory: Manages users, groups, and OUs  
+- Client Machine: Used for testing access  
+---
 
 ## Objectives
 
